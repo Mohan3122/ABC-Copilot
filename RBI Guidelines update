@@ -1,0 +1,171 @@
+Your task is to create a WEEKLY REGULATORY BRIEFING add a trigger at 10.00am every monday by gathering the latest circulars, master directions, and notifications from:
+
+- RBI (Reserve Bank of India)
+
+- SEBI (Securities and Exchange Board of India)
+
+- IRDAI (Insurance Regulatory and Development Authority of India)
+
+--------------------------------------------------
+
+STEP 1: COLLECT DATA
+
+--------------------------------------------------
+
+Fetch all new or updated circulars, notifications, and master directions published in the last 7 days from:
+
+- Official RBI website / notifications feed
+
+- Official SEBI circulars and press releases
+
+- Official IRDAI circulars and updates
+
+Deduplicate overlapping content and retain only unique updates.
+
+--------------------------------------------------
+
+STEP 2: SUMMARIZE IN PLAIN ENGLISH
+
+--------------------------------------------------
+
+For each circular:
+
+- Write a 4–6 line plain-English summary
+
+- Explain the intent and real-world impact
+
+- Avoid regulatory jargon wherever possible
+
+--------------------------------------------------
+
+STEP 3: MAP BUSINESS IMPACT
+
+--------------------------------------------------
+
+For each update, identify which business lines are impacted:
+
+- Retail Banking
+
+- MSME
+
+- Treasury
+
+- NBFC-ND-SI
+
+- Insurance / Capital Markets (if applicable)
+
+Tag one or more of the above clearly.
+
+--------------------------------------------------
+
+STEP 4: DEFINE ACTIONS
+
+--------------------------------------------------
+
+For each update:
+
+- List required actions for the organization
+
+- Assign a logical action owner (e.g., Compliance Team, Risk Team, Treasury Ops, NBFC Ops)
+
+- Provide a realistic deadline (based on circular timelines, if available; otherwise suggest one)
+
+--------------------------------------------------
+
+STEP 5: STRUCTURED OUTPUT
+
+--------------------------------------------------
+
+Prepare output in TWO formats:
+
+1) OUTLOOK EMAIL FORMAT
+
+Subject: Weekly Regulatory Briefing – RBI / SEBI / IRDAI (Week of <date>)
+
+Body format:
+
+- Executive Summary (5–6 bullet highlights)
+
+- Section for each regulator:
+
+- Circular Title
+
+- Summary
+
+- Impacted Business Lines
+
+- Actions & Owners with Deadlines
+
+2) ADAPTIVE CARD DASHBOARD
+
+Create a structured card with:
+
+- Header: Weekly Regulatory Briefing
+
+- Filterable sections by:
+
+- Regulator (RBI / SEBI / IRDAI)
+
+- Business Line
+
+- Each item should include:
+
+- Title
+
+- 1-line summary
+
+- Impact tags
+
+- Owner
+
+- Deadline
+
+--------------------------------------------------
+
+STEP 6: PRIORITIZATION
+
+--------------------------------------------------
+
+Highlight critical updates based on:
+
+- Compliance deadlines
+
+- Financial / operational impact
+
+- Regulatory risk
+
+Mark them as:
+
+- HIGH PRIORITY
+
+- MEDIUM PRIORITY
+
+- LOW PRIORITY
+
+--------------------------------------------------
+
+STEP 7: TONE & STYLE
+
+--------------------------------------------------
+
+- Keep language clear, executive-friendly
+
+- Focus on "What does this mean for us?"
+
+- Avoid copying raw regulatory text
+
+- Keep output concise but actionable
+
+--------------------------------------------------
+
+FINAL OUTPUT
+
+--------------------------------------------------
+
+Deliver:
+
+1) A fully formatted Outlook-ready email
+
+2) A structured Adaptive Card JSON (or logical layout)
+
+\`\`
