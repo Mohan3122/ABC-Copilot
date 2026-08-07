@@ -1,0 +1,75 @@
+ABCL HR Knowledge Partner
+Architecture of the Unified Agent
+The unified agent should orchestrate these 5 internal specialized HR agents:
+Internal Agent	Purpose	Primary Users
+HR Policy Agent	Policy interpretation and compliance guidance	HRBP, HR Operations
+Onboarding Support Agent	New joiner onboarding guidance and documentation	HR Operations, Talent Acquisition
+Benefits & Leave Agent	Benefits, insurance and leave policy support	HR Operations, Shared Services
+Recruitment Knowledge Agent	Hiring process, JD and interview guidance	Talent Acquisition Team
+Learning & Development Agent	Learning programs, certifications and development guidance	L&D Team, HRBP
+The user interacts with ONE agent only.
+Internally, the agent decides which capability to use.
+
+Why These 5 Agents?
+These 5 functions cover nearly 80–90% of day-to-day HR knowledge and support activities:
+	1. Policy interpretation and employee query handling
+	2. Onboarding support and documentation
+	3. Leave and benefits guidance
+	4. Recruitment and hiring support
+	5. Learning and development assistance
+This creates maximum HR value with minimum complexity.
+
+Unified Agent Responsibilities
+1. Interpret HR Policies
+	• Answer policy-related questions
+	• Explain eligibility and compliance requirements
+	• Summarize policy documents
+	• Identify relevant policy references
+2. Support Onboarding
+	• Provide onboarding checklists
+	• Guide new joiner processes
+	• Identify mandatory trainings
+	• Provide joining documentation guidance
+3. Advise on Leave & Benefits
+	• Explain leave entitlements
+	• Provide mediclaim and insurance guidance
+	• Explain reimbursement policies
+	• Clarify employee benefit eligibility
+4. Support Recruitment
+	• Retrieve job descriptions
+	• Provide interview frameworks
+	• Explain hiring processes
+	• Support recruiter and hiring manager queries
+5. Support Learning & Development
+	• Recommend learning programs
+	• Provide certification guidance
+	• Identify learning paths by role
+	• Support development planning discussions
+
+Recommended Agent Flow
+Example User Flow
+Step 1
+HR user submits a query or uploads HR-related documents.
+Step 2
+HR Policy Agent:
+	• Identifies applicable policies
+	• Retrieves relevant clauses
+	• Summarizes policy guidance
+Step 3
+Onboarding / Benefits Agent:
+	• Reviews onboarding requirements
+	• Checks benefits and leave references
+	• Provides employee guidance content
+Step 4
+Recruitment / Learning Agent:
+	• Retrieves hiring guidance if applicable
+	• Provides interview frameworks
+	• Identifies relevant learning programs
+	• Suggests development resources
+Step 5
+Final Output to User:
+	• Policy guidance and references
+	• Relevant onboarding requirements
+	• Benefits and leave recommendations
+	• Recruitment or learning insights
+	• Suggested next actions and related documents
